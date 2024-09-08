@@ -50,9 +50,11 @@
 При помощи команды git init в соответствующей директории можно создать репозиторий
   
 ## Лабораторная работа №4
-### Текст задания
-![Меню]()
+### Подготовка файлов
+![img4-1](https://github.com/aasoloveva/SoftwareEngineering/blob/0cd1e8c0a92eb236252aa7c1f18f8840fb25bc74/img/screenshot_1.2_4.png)
+![img4-2](https://github.com/aasoloveva/SoftwareEngineering/blob/b1250a8d1fa69d885506872d6020b28b8b1d6bde/img/screenshot_1.2_5.png)
 ## Выводы
+При помощи команды git add *название файла* можно добавить файл в репозиторий, а при помощи команды git status узнать статус репозитория и изменений в нем
 
 ## Лабораторная работа №5
 ### Текст задания
