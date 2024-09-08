@@ -7,7 +7,7 @@
 | ------ | ------ | ------ |
 | Задание 1 | + | - |
 | Задание 2 | + | - |
-| Задание 3 | - | - |
+| Задание 3 | + | - |
 | Задание 4 | - | - |
 | Задание 5 | - | - |
 | Задание 6 | - | - |
@@ -30,7 +30,7 @@
 ### Установка Git
 
 ### Результат. 
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/93db64760879917540e84115775affd7d2df849d/img/screenshot_1.2_1.png)
+![img1](https://github.com/aasoloveva/SoftwareEngineering/blob/93db64760879917540e84115775affd7d2df849d/img/screenshot_1.2_1.png)
 
 ## Выводы
 
@@ -39,14 +39,15 @@
 ## Лабораторная работа №2
 ### Установка имени пользователя и адреса электронной почты
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/20482b5d003a6854b7be6ee74e3c712cede5029f/img/screenshot_1.2_2.png)
+![img2](https://github.com/aasoloveva/SoftwareEngineering/blob/20482b5d003a6854b7be6ee74e3c712cede5029f/img/screenshot_1.2_2.png)
 ## Выводы
 Имя пользователя и почту можно сменить при помощи команд git config --global user.name "..." и git config --global user.email "..." соответственно 
 
 ## Лабораторная работа №3
-### Текст задания
-![Меню]()
+### Создание нового репозитория
+![img3](https://github.com/aasoloveva/SoftwareEngineering/blob/1c95a8c7149dbea784f9847efae7b73e441f05b0/img/screenshot_1.2_3.png)
 ## Выводы
+При помощи команды git init в соответствующей директории можно создать репозиторий
   
 ## Лабораторная работа №4
 ### Текст задания
