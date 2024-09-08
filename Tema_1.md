@@ -11,7 +11,7 @@
 | Задание 4 | + | - |
 | Задание 5 | + | - |
 | Задание 6 | + | - |
-| Задание 7 | - | - |
+| Задание 7 | + | - |
 | Задание 8 | - | - |
 | Задание 9 | - | - |
 | Задание 10 | - | - |
@@ -85,11 +85,25 @@
 ### Возврат к сохраненным изменениям
 ![img6-4](https://github.com/aasoloveva/SoftwareEngineering/blob/b677c2bc7e96276fc107661cd6b12d02d0c6e664/img/screenshot_1.2_16.png)
 ## Выводы
+- С помощью команды git remote add origin *ссылка* можно связать удаленный репозиторий с локальным
+- С помощью команды git push изменения загружаются на удаленный репозиторий
+- git pull позволяет извлечь изменения
+- Команда git stash позволяет добавить изменения к стэш, а git stash apply или git stash pop позволяет вернуться к сохраненным в стэше изменениям
 
 ## Лабораторная работа №7
-### Текст задания
-![Меню]()
+### Создание новой ветки. Выполните команду git branch с именем новой ветки, которую вы хотите создать
+![img7-1](https://github.com/aasoloveva/SoftwareEngineering/blob/4d6af62e322f280f2de3ccccbe7735cfe11ce756/img/screenshot_1.2_17.png)
+### Переключение на новую ветку
+![img7-2](https://github.com/aasoloveva/SoftwareEngineering/blob/4d6af62e322f280f2de3ccccbe7735cfe11ce756/img/screenshot_1.2_18.png)
+### Слияние веток
+![img7-3](https://github.com/aasoloveva/SoftwareEngineering/blob/4d6af62e322f280f2de3ccccbe7735cfe11ce756/img/screenshot_1.2_19.png)
+### Перебазирование веток
+![img7-4](https://github.com/aasoloveva/SoftwareEngineering/blob/4d6af62e322f280f2de3ccccbe7735cfe11ce756/img/screenshot_1.2_20.png)
 ## Выводы
+- git branch *название* создает новую ветку 
+- git checkout *название* или git switch *название* позволяет переключиться на ветку
+- git merge *название* сливает указанную ветку с текущей
+- git rebase *название* позволяет перебазировать ветку в конец целевой ветки
 
 ## Лабораторная работа №8
 ### Текст задания
