@@ -5,7 +5,7 @@
 
 | Задание | Лаб_раб | Сам_раб |
 | ------ | ------ | ------ |
-| Задание 1 | - | - |
+| Задание 1 | + | - |
 | Задание 2 | - | - |
 | Задание 3 | - | - |
 | Задание 4 | - | - |
@@ -34,8 +34,8 @@ print(123)
 print('123')
 print(1.23)
 ```
-### Результат.
-![Меню](https://github.com/vnika2003/Software_Engineering/blob/Тема_2/pic/Lab2_1.png)
+### Результат. 
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/93db64760879917540e84115775affd7d2df849d/img/screenshot_1.2_1.png)
 
 ## Выводы
 
