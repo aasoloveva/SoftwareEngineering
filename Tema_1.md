@@ -10,7 +10,7 @@
 | Задание 3 | + | - |
 | Задание 4 | + | - |
 | Задание 5 | + | - |
-| Задание 6 | - | - |
+| Задание 6 | + | - |
 | Задание 7 | - | - |
 | Задание 8 | - | - |
 | Задание 9 | - | - |
@@ -79,7 +79,11 @@
 ### Загрузка изменений на удаленный репозиторий
 ![img6-1](https://github.com/aasoloveva/SoftwareEngineering/blob/e9a2633f6ad967b275109dfec468827866602a2e/img/screenshot_1.2_13.png)
 ### Извлечение изменений с помощью git pull
-![img6-2]()
+![img6-2](https://github.com/aasoloveva/SoftwareEngineering/blob/cb2a0ffecbf92831eaab8676cd2b6325cf8ec2b1/img/screenshot_1.2_14.png)
+### Добавление измненений в стэш
+![img6-3](https://github.com/aasoloveva/SoftwareEngineering/blob/6456426e9a3047d03aaf1545a6c1ccbd2f60c269/img/screenshot_1.2_15.png)
+### Возврат к сохраненным изменениям
+![img6-4](https://github.com/aasoloveva/SoftwareEngineering/blob/b677c2bc7e96276fc107661cd6b12d02d0c6e664/img/screenshot_1.2_16.png)
 ## Выводы
 
 ## Лабораторная работа №7
