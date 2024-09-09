@@ -13,7 +13,7 @@
 | Задание 6 | + | - |
 | Задание 7 | + | - |
 | Задание 8 | + | - |
-| Задание 9 | - | - |
+| Задание 9 | + | - |
 | Задание 10 | - | - |
 | Задание 11 | - | - |
 | Задание 12 | - | - |
@@ -115,10 +115,14 @@ fetch позволяет извлечь изменения из удаленно
 ### Удаление файла
 ![img9-1](https://github.com/aasoloveva/SoftwareEngineering/blob/2667834216d2d9ed8b1db0cce48e23a914cdd8a2/img/screenshot_1.2_22.png)
 ### Удаление локальной ветки
-![img9-2]()
+![img9-2](https://github.com/aasoloveva/SoftwareEngineering/blob/aba76e82823c4e990f3761f8520189b4c93a888b/img/screenshot_1.2_23.png)
 ### Удаление удаленной ветки
-![img9-3]()
+![img9-3](https://github.com/aasoloveva/SoftwareEngineering/blob/ba21fdec864e99f849e413e69a54c1fe3b32e4cc/img/screenshot_1.2_24.png)
 ## Выводы
+- git rm *имя* удаляет файл, git remove --cached *имя* удаляет файл только из индекса
+- git branch -d *название*, -D удаляет локальную ветку, безопасно и принудительно соответственно
+- git push origin --delete *название* удаляет удаленную ветку
+- rmdir удаляет директорию, что также удаляет и локальный репозиторий
 
 ## Лабораторная работа №10
 ### Текст задания
