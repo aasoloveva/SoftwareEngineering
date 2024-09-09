@@ -18,7 +18,7 @@
 | Задание 11 | + | - |
 | Задание 12 | + | - |
 | Задание 13 | + | - |
-| Задание 14 | - | - |
+| Задание 14 | + | - |
 | Задание 15 | - | - |
 
 знак "+" - задание выполнено; знак "-" - задание не выполнено;
@@ -153,9 +153,13 @@ git commit --amend используется для редактикования 
 git rebase -i HEAD~3 позволяет выбрать один из предыдущих коммитов, затем можно применить git commit --amend для его редактирования и закончить командой git rebase --continue
 
 ## Лабораторная работа №14
-### Текст задания
-![Меню]()
+### Разрешение конфликтов при слиянии
+![img14-1](https://github.com/aasoloveva/SoftwareEngineering/blob/394e1042cb649e3c3d69f57a93fbde77692578b0/img/screenshot_1.2_32.png)
+![img14-2](https://github.com/aasoloveva/SoftwareEngineering/blob/394e1042cb649e3c3d69f57a93fbde77692578b0/img/screenshot_1.2_33.png)
+![img14-3](https://github.com/aasoloveva/SoftwareEngineering/blob/394e1042cb649e3c3d69f57a93fbde77692578b0/img/screenshot_1.2_34.png)
+![img14-4](https://github.com/aasoloveva/SoftwareEngineering/blob/394e1042cb649e3c3d69f57a93fbde77692578b0/img/screenshot_1.2_35.png)
 ## Выводы
+При конфликте слияния git помечает конфликт внутри файла, необходимо открыть его и вручную выбрать необходимый вариант, после чего сохранить файл
 
 ## Лабораторная работа №15
 ### Текст задания
