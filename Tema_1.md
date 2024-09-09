@@ -170,6 +170,36 @@ git rebase -i HEAD~3 позволяет выбрать один из преды�
 
 ## Общие выводы по теме
 Git является важнейшим инструментом для программиста, в особенности для совместной работы. Он позволяет контролировать версии, одновременно работать над разными вещами разным программистам, и избегать путаниц и несостыковок кода.
+
 В этой теме были изучены команды для работы в Git:
-- 1
-- 2
+- git --version
+- git config --global user.name
+- git config --global user.email
+- git init
+- git add
+- git status
+- git commit
+- git log
+- git remote add origin
+- git push
+- git pull
+- git stash
+- git stash apply
+- git stash pop
+- git branch
+- git checkout
+- git merge
+- git rebase
+- git fetch
+- git rm
+- git branch -d, git branch -D
+- git push origin --delete
+- git diff
+- git checkout
+- git reset --hard, git reset --soft
+- git commit --amend
+- git rebase -i HEAD~3
+- git commit --amend
+- git rebase --continue
+- Решение конфликтов при слиянии
+- Файл .gitignore
