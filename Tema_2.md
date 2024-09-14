@@ -209,7 +209,7 @@ day, month, year = 15, "сентября", 2024
 print(f"Сегодня {day} {month} {year}.", end=" Всего хорошего!")
 ```
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/23d46745d4ca1077d45286d01fa80d143f57840e/img/screenshot_2_16.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/671225adb5eb53eea1a0b72b1b229b1a34dd19a9/img/screenshot_2_16.png)
 ### Выводы
 Развернутый вывод
   
@@ -220,7 +220,7 @@ s = "Hello World"
 print(s[:6], "my", s[5:], sep="")
 ```
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/23d46745d4ca1077d45286d01fa80d143f57840e/img/screenshot_2_17.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/671225adb5eb53eea1a0b72b1b229b1a34dd19a9/img/screenshot_2_17.png)
 ### Выводы
 Развернутый вывод
   
@@ -230,7 +230,7 @@ print(s[:6], "my", s[5:], sep="")
 print(len("Hello World")) 
 ```
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/23d46745d4ca1077d45286d01fa80d143f57840e/img/screenshot_2_18.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/671225adb5eb53eea1a0b72b1b229b1a34dd19a9/img/screenshot_2_18.png)
 ### Выводы
 Развернутый вывод
   
@@ -240,7 +240,7 @@ print(len("Hello World"))
 print("HELLO WORLD".lower()) 
 ```
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/23d46745d4ca1077d45286d01fa80d143f57840e/img/screenshot_2_19.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/671225adb5eb53eea1a0b72b1b229b1a34dd19a9/img/screenshot_2_19.png)
 ### Выводы
 Развернутый вывод
   
@@ -253,7 +253,7 @@ gipotenuza = (katet1 ** 2 + katet2 ** 2) ** 0.5
 print(gipotenuza)
 ```
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/23d46745d4ca1077d45286d01fa80d143f57840e/img/screenshot_2_20.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/671225adb5eb53eea1a0b72b1b229b1a34dd19a9/img/screenshot_2_20.png)
 ### Выводы
 Развернутый вывод
   
@@ -278,7 +278,7 @@ for i in range(h - 1):
     width += 2
 ```
 ### Результат
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/23d46745d4ca1077d45286d01fa80d143f57840e/img/screenshot_2_21.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/671225adb5eb53eea1a0b72b1b229b1a34dd19a9/img/screenshot_2_21.png)
 ### Выводы
 Развернутый вывод
 
