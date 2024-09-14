@@ -29,7 +29,7 @@ print(111)
 print("111")
 print(1.11)
 ```
-### Результат.
+### Результат
 ![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/cfd76395232fabf49fff78a15a8e3769ca420b2a/img/screenshot_2_1.png)
 
 ## Выводы
@@ -37,16 +37,34 @@ print(1.11)
 
 
 ## Лабораторная работа №2
-- Текст задания
-- Оформленный код
-- Скрины консоли
-- Краткие Выводы
+### Выведите в консоль три строки. Первая - результат сложения или вычитания минимум двух переменных типа int. Вторая - результат сложения или вычитания минимум двух переменных типа float. Третья - результат сложения или вычитания минимум двух переменных типа int и float.
+
+```python
+print (111 - 222)
+print (1.11 + 1.23)
+print(11 + 0.1)
+```
+
+### Результат
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/6befd27d2ba26783677c17342b889d446bdc50e8/img/screenshot_2_2.png)
+
+### Выводы
+Python может производить операции между разными типами переменных
+
 
 ## Лабораторная работа №3
-- Текст задания
-- Оформленный код
-- Скрины консоли
-- Краткие Выводы
+### Выведите в консоль три строки. Первая - обычная строка. Вторая - F строка с использованием заранее объявленной переменной. Третья - сложите две или более строк в одну.
+```python
+print("The wizard quickly jinxed the gnomes before they vaporized.")
+caster = "wizard"
+target = "gnomes"
+print(f"The {caster} quickly jinxed the {target} before they vaporized.")
+print("The " + caster + " quickly jinxed the " + target + " before they vaporized.")
+```
+### Результат
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/0345a6e2f9e49591b32c09381b31e133e962528e/img/screenshot_2_3.png)
+### Выводы
+Строки можно складывать, в f-строке можно использовать переменные
   
 ## Лабораторная работа №4
 - Текст задания
