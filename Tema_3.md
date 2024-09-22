@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/29c1aba9-9a68-4765-b3d9-86f26be2dee4)# Тема 3. Операторы, условия, циклы
+# Тема 3. Операторы, условия, циклы
 Отчет по Теме #3 выполнил(а):
 - Соловьева Анна Антоновна
 - ИВТ-22-2
@@ -222,7 +222,7 @@ else:
 ```python
 ```
 ### Результат.
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_S1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s1.png)
 ## Выводы
 Развернутый вывод
   
@@ -231,7 +231,7 @@ else:
 ```python
 ```
 ### Результат.
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_s2.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s2.png)
 ## Выводы
 Развернутый вывод
   
@@ -244,8 +244,8 @@ else:
 ```python
 ```
 ### Результат.
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_s3.png)
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_s3_2.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s3.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s3_2.png)
 ## Выводы
 Развернутый вывод
   
@@ -260,7 +260,7 @@ else:
 ```python
 ```
 ### Результат.
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_s4.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s4.png)
 ## Выводы
 Развернутый вывод
   
