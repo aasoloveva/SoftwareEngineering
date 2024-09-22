@@ -84,7 +84,8 @@ else:
     print("No")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_4_1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_4_2.png)
 ## Выводы
 Краткие Выводы
 
@@ -98,7 +99,7 @@ for i in range(11):
         print(i, ">= 5")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_5.png)
 ## Выводы
 Краткие Выводы
 
@@ -116,7 +117,8 @@ else:
     print("Буквы в строке нету")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_6_1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_6_2.png)
 ## Выводы
 Краткие Выводы
 
@@ -131,7 +133,7 @@ for i in range(10,-1,-1):
         print("нечетное")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_7.png)
 ## Выводы
 Краткие Выводы
 
@@ -150,7 +152,7 @@ while a >= 1:
 print(a)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_8.png)
 ## Выводы
 Краткие Выводы
 
@@ -180,7 +182,7 @@ for i in range (5):
     print("")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_9.png)
 ## Выводы
 Краткие Выводы
 
@@ -205,7 +207,8 @@ else:
     print("В массиве нет нечетных чисел")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_10_1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/bfc5babaffc27a4d0f6b57002627334fa26e6475/img/screenshot_3_10_2.png)
 ## Выводы
 Краткие Выводы
 
