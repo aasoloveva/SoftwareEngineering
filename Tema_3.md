@@ -220,15 +220,23 @@ else:
 - += 1
 Никаких других действий или циклов использовать нельзя.
 ```python
+x = 1
+for i in range(2):
+    x *= 5
+    x += 1
+print(x) 
 ```
 ### Результат.
 ![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s1.png)
 ## Выводы
-Развернутый вывод
+Программа преобразует 1 в 31 при помощи цикла `for`, который итерируется 2 раза (`range(2)`). Внутри цикла число `x` (изначально равное 1) сначала умножается на 5, затем к нему прибавляется 1. В конце программа выводит преобразованное число `x` при помощи функции `print(x)`
   
 ## Самостоятельная работа №2
 ### Напишите программу, которая фразу «Hello World» выводит в обратном порядке, и каждая буква находится в одной строке консоли. При этом необходимо обязательно использовать любой цикл, а также программа должна занимать не более 3 строк в редакторе кода.
 ```python
+s = "Hello World"
+for i in range (len(s) - 1, -1, -1):
+    print(s[i])
 ```
 ### Результат.
 ![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s2.png)
@@ -242,6 +250,15 @@ else:
 - от 6 до 10 включительно
 Результатом работы программы будет выведенный в консоль диапазон. Программа должна занимать не более 10 строчек в редакторе кода.
 ```python
+x = float(input())
+if x < 0 or x > 10:
+    print("Число должно быть от 0 до 10!")
+elif 0 <= x <= 3:
+    print("x ∈ [0; 3]")
+elif 3 < x < 6:
+    print("x ∈ (3; 6)")
+elif 6 <= x <= 10:
+    print("x ∈ [6; 10]")
 ```
 ### Результат.
 ![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s3.png)
@@ -258,16 +275,26 @@ else:
 - Проверьте, начинается ли предложение с "The" и заканчивается ли на "end".
 Проверьте работу программы минимум на 3 предложениях, чтобы охватить проверку всех поставленных условий.
 ```python
+for i in range(3):
+    s = input()
+    print(len(s))
+    s = s.lower()
+    print(s)
+    print(s.count("a") + s.count("e") + s.count("i") + s.count("o") + s.count("u"))
+    print(s.replace("ugly", "beautiful"))
+    if s[:3] == "the": print("Начинается с \"The\"", end="; ")
+    else: print("Не начинается с \"The\"", end="; ")
+    if s[-3:] == "end": print("Кончается на \"end\"")
+    else: print("Не кончается на \"end\"")
 ```
 ### Результат.
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/1ce63f87b2fb0d4638e66b5e83f94a7a65608fae/img/screenshot_3_s4.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/2de4a273bfed9344569b8a916543a79b599d08f1/img/screenshot_3_s4.png)
 ## Выводы
 Развернутый вывод
   
 ## Самостоятельная работа №5
 ### Составьте программу, результатом которой будет данный вывод в консоль:
-`hello world
-hello
+```
 hello world
 hello
 hello world
@@ -276,8 +303,11 @@ hello world
 hello
 hello world
 hello
-hello world`
-Программу нужно составить из данных фрагментов кода...
+hello world
+hello
+hello world
+```
+Программу нужно составить из данных фрагментов кода (...)
 ```python
 ```
 ### Результат.
