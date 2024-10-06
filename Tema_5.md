@@ -162,7 +162,7 @@ a = [12,1324,3,5,435,2,43,1,5,6,7321]
 print(a[::-1]) 
 ```
 ### Результат.
-![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a027a23633d069b2fbf6026eda86748db67cb704/img/screenshot_5_10.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/201c81628911b237e5668d9356ef4dfb8b975c21/img/screenshot_5_10.png)
 ## Выводы
 Краткие выводы
 
