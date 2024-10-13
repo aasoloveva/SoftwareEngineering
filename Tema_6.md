@@ -37,7 +37,7 @@ access = response.get('access')
 print(key, access)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_L1.png)
 ## Выводы
 Краткие выводы
 
@@ -56,7 +56,7 @@ dict_maker(name="Михаил", age=31, weight=70,eyes_color="blue")
 pprint(my_dict)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_L2.png)
 ## Выводы
 Краткие выводы
 
@@ -69,7 +69,7 @@ print(result)
 print(list(result))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_L3.png)
 ## Выводы
 Краткие выводы
 
@@ -85,7 +85,7 @@ bob = ("Георгий", 41, "Yandex")
 personal_info(*bob)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_L4.png)
 ## Выводы
 Краткие выводы
 
@@ -105,7 +105,7 @@ print(sort_tuple(tupl1))
 print(sort_tuple(tupl2))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_L5.png)
 ## Выводы
 Краткие выводы
 
@@ -118,7 +118,7 @@ tup = tuple(map(int, a.split()))
 print(mass, tup, sep="\n")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_S1.png)
 ## Выводы
 Развернутый вывод
 
@@ -139,7 +139,7 @@ print(breaktherules((1, 2, 3, 1, 2, 3, 4, 5, 2, 3, 4, 2, 4, 2), 3))
 print(breaktherules((2, 4, 6, 6, 4, 2), 9))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_S2.png)
 ## Выводы
 Развернутый вывод
 
@@ -160,7 +160,7 @@ def create_dict(string):
 print(create_dict(s))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_S3.png)
 ## Выводы
 Развернутый вывод
 
@@ -183,7 +183,7 @@ print(smth((1,8,3,4,8,8,9,2),8))
 print(smth((1,2,8,5,1,2,9),8))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_S4.png)
 ## Выводы
 Развернутый вывод
 
@@ -200,7 +200,7 @@ for i in range(3):
 pprint(mass)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/a65b69861cf2c44217f82e419b733f09dc42b1cf/img/screenshot_6_S5.png)
 ## Выводы
 Развернутый вывод
 
