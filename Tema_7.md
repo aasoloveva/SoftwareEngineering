@@ -24,7 +24,7 @@
 ## Лабораторная работа №1
 ### Составьте текстовый файл и положите его в одну директорию с программой на Python. Текстовый файл должен состоять минимум из двух строк.
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L1.png)
 
 ## Лабораторная работа №2
 ### Напишите программу, которая выведет только первую строку из вашего файла, при этом используйте конструкцию open()/close().
@@ -33,7 +33,7 @@ with open("input.txt", "r") as f:
     print(f.readline())
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L2.png)
 ## Выводы
 Краткие выводы
 
@@ -45,7 +45,7 @@ print(f.readlines())
 f.close()
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L3.png)
 ## Выводы
 Краткие выводы
 
@@ -56,7 +56,7 @@ with open("input.txt", "r") as f:
     print(f.readlines())
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L4.png)
 ## Выводы
 Краткие выводы
 
@@ -68,7 +68,7 @@ with open("input.txt", "r") as f:
         print(i, end="")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L5.png)
 ## Выводы
 Краткие выводы
 
@@ -82,7 +82,8 @@ with open ("input.txt", "r") as f:
         print(l, end="")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L6_1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L6_2.png)
 ## Выводы
 Краткие выводы
 
@@ -95,7 +96,8 @@ with open ("input.txt", "w") as f:
         f.write(f"Line {l}\n")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L7_1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L7_2.png)
 ## Выводы
 Краткие выводы
 
@@ -115,7 +117,7 @@ def print_docs(directory):
 print_docs('C:\\Users\\Lenovo\\PycharmProjects\\UNI')
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L8.png)
 ## Выводы
 Краткие выводы
 
@@ -138,7 +140,7 @@ print(longest_words('input.txt'))
 print(longest_words('input2.txt'))
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L9.png)
 ## Выводы
 Краткие выводы
 
@@ -161,7 +163,8 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
         time.sleep(0.01)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L10_1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_L10_2.png)
 ## Выводы
 Краткие выводы
 
@@ -191,7 +194,8 @@ print(f"Количество слов: {len(words)}.")
 print(f"Самое частое слово: {maxword}, встречающееся {maxcount} раз.")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_S1.png)
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_S1_2png)
 ## Выводы
 Развернутый вывод
 
@@ -226,7 +230,7 @@ with open("rashodi.txt", "a", encoding="Windows-1251") as f:
             print("Неизвестная команда.")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_S2.png)
 ## Выводы
 Развернутый вывод
 
@@ -249,7 +253,7 @@ lines = len(text)
 print(f"{letters} letters\n{words} words\n{lines} lines")
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_S3.png)
 ## Выводы
 Развернутый вывод
 
@@ -271,12 +275,12 @@ for x in prohibited:
 print(text)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/f59a4ce7305f25101009e3ae1e47045ceeddc261/img/screenshot_7_S4.png)
 ## Выводы
 Развернутый вывод
 
 ## Самостоятельная работа №5
-### У вас очень плохая память, когда дело касается дней рождений. Необходима программа, которая поможет вам создать txt-файл со списком дней рождений друзей в столбик по возрастанию дат. При последующих запусках программы и вводе новых дат, они должны вставать на свои места по возрастанию среди старых дат.
+### 
 ```python
 ```
 ### Результат.
