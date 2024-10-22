@@ -285,11 +285,45 @@ print(text)
 Развернутый вывод
 
 ## Самостоятельная работа №5
-### 
+### У вас очень плохая память, когда дело касается дней рождений. Необходима программа, которая поможет вам создать txt-файл со списком дней рождений друзей в столбик по возрастанию дат. При последующих запусках программы и вводе новых дат, они должны вставать на свои места по возрастанию среди старых дат.
 ```python
+mass = []
+try:
+    with open("Birthdays.txt", "r") as f:
+        mass += f.readlines()
+except FileNotFoundError:
+    with open("Birthdays.txt", "w") as f:
+        pass
+for i in range(len(mass)):
+    #Дмитрий : 31.12
+    mass[i] = mass[i].split(":")
+    mass[i][1] = list(map(int, mass[i][1].split(".")))
+#print(mass)
+
+command = input("Введите \"Добавить\", чтобы добавить новый день рождения, или \"Список\", чтобы посмотреть список дней рождений. \"Готово\", чтобы завершить работу.\n")
+while command != "Готово":
+    if command == "Добавить":
+        name = input("Введите имя: ")
+        date = list(input("Введите день и месяц в формате \"31.12\": ").split("."))
+
+        mass.append([name, date])
+        mass = sorted(mass, key = lambda a: int(a[1][0])) #day
+        mass = sorted(mass, key = lambda b: int(b[1][1])) #month
+
+        with open("Birthdays.txt", "w") as f:
+            for x in mass:
+                f.write(f"{x[0]} : {x[1][0]}.{x[1][1]}\n")
+    elif command == "Список":
+        for x in mass:
+            print(f"{x[0]} : {x[1][0]}.{x[1][1]}")
+    elif command == "Готово":
+        pass
+    else:
+        print("Неизвестная команда.")
+    command = input()
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/aasoloveva/SoftwareEngineering/blob/7380f2c8fa781a6b2211e0891ca066697345b9b6/img/screenshot_7_S5.png)
 ## Выводы
 Развернутый вывод
 
